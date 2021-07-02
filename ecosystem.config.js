@@ -1,11 +1,16 @@
 module.exports = {
   apps: [
     {
-      name: 'nuxt-jenkins',
+      name: 'nuxt-jenkins-pm2',
       exec_mode: 'cluster',
-      instances: '2', // Or a number of instances
-      script: './node_modules/nuxt/bin/nuxt.js',
-      args: 'start'
+      instances: 'max',
+      script: './server.js',
+      env_production: {
+        NODE_ENV: "production"
+      },
+      env_development: {
+        NODE_ENV: "development"
+      }
     }
   ]
 }
