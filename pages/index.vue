@@ -18,14 +18,14 @@
         >
           Documentation
         </a>
-        <a
+        <!-- <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
         >
           GitHub
-        </a>
+        </a> -->
       </div>
     </div>
   </div>
