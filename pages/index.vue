@@ -9,7 +9,7 @@
           <a href="/users" class="button--green"> List </a>
         </div>
       </div>
-      <div class="links">
+      <!-- <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
@@ -17,7 +17,7 @@
           class="button--green"
         >
           Documentation
-        </a>
+        </a> -->
         <!-- <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
